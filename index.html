@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Frameworks -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- End of Frameworks -->
+    <!-- Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <!-- End of Fonts -->
+    <title>E-Ticket</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="nav lg:w-[90%] lg:m-auto sm:w-full">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">E-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="btn bg-lime-200 bg-opacity-50">
+            <a class="bus text-green-500">Bus</a>
+            <img src="images/bus-icon.png" alt="Bus Icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div
+      class="banner lg:w-[90%] m-auto mt-3 h-[600px] bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center  rounded-3xl"
+    >
+      <h2 class="h2 text-wrap text-6xl text-white text-center p-24">
+        End-to-End Travel with Rubia Paribahan
+      </h2>
+      <p class="p1 text-wrap text-white text-center">
+        Travel with Rubia Paribahan for a seamless journey across destinations,
+        offering reliable transportation services with a focus on safety and
+        comfort.
+      </p>
+      <div class="flex m-auto justify-center items-center">
+        <div class="btn">Buy Ticket</div>
+      </div>
+    </div>
+    <!-- Offer Page -->
+    <div class="offer">
+      <h2 class="offer-h2 font-extrabold text-4xl text-center mt-40 mb-12">
+        Best offers for you
+      </h2>
+      <!-- Coupon Page -->
+      <div
+        class="offerdivs lg:w-[90%] sm:w-full lg:m-auto flex lg:flex-row sm:flex-col gap-6"
+      >
+        <!-- Coupon 1 -->
+        <div
+          class="coupon1 bg-[#FFBF0F] lg:w-1/2 sm:w-[90%] sm:m-auto flex flex-row justify-around rounded-3xl"
+        >
+          <div class="off15 w-1/3 m-auto">
+            <h2 class="text-wrap font-extrabold text-5xl">15% OFF</h2>
+            <p class="font-bold">on your next purchase</p>
+            <p class="">use by January 2024</p>
+          </div>
+          <div class="dividedc">
+            <img src="images/cupon-devider.png" alt="Divider" />
+          </div>
+          <div class="copcode w-3/3 m-auto">
+            <h2 class="text-wrap font-extrabold text-5xl">NEW15</h2>
+            <p class="font-bold">Coupon Code</p>
+          </div>
+        </div>
+        <!-- Coupon 2 -->
+        <div
+          class="coupon2 bg-[#F78C9C] lg:w-1/2 sm:w-[90%] sm:m-auto flex flex-row justify-around rounded-3xl"
+        >
+          <div class="w-1/3 m-auto">
+            <h2 class="text-wrap font-extrabold text-5xl">20% OFF</h2>
+            <p class="font-bold">on your next purchase</p>
+            <p class="">use by January 2024</p>
+          </div>
+          <div class="dividedc">
+            <img src="images/cupon-devider.png" alt="Divider" />
+          </div>
+          <div class="copcode w-3/3 m-auto">
+            <h2 class="text-wrap font-extrabold lg:text-5xl sm:text-4xl">
+              Couple 20
+            </h2>
+            <p class="font-bold">Coupon Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- See More -->
+    <div class="flex justify-center mt-3 mb-28">
+      <div class="btn bg-white border-lime-300">
+        <span class="textoff text-lime-400 font-bold">See All Offers</span>
+      </div>
+    </div>
+    <!-- Main Part -->
+    <div class="main border-t-2 border-lime-400 rounded-t-[80px] bg-[#F7F8F8]">
+      <!-- Text -->
+      <div class="text-container mb-12">
+        <h2 class="font-bold text-3xl text-center mt-32">Rubia Paribahan</h2>
+        <p class="text-xl text-center mt-6">
+          Experience hassle-free travel and explore your desired destinations
+          with ease and convenience.
+        </p>
+      </div>
+      <!-- Bus Details -->
+      <div
+        class="bus bg-white lg:w-[90%] sm:w-[90%] m-auto flex flex-row rounded-3xl ">
+        <div class="detail-bus w-3/4 ">
+          <!-- Bus Details Like Name and availble seat -->
+          <div class="bustails flex flex-row justify-between mx-8 mt-12">
+            <div class="but-info flex flex-row w-1/2 gap-3">
+              <img src="images/bus-logo.png" alt="Bus Logo" />
+              <div class="bus-text">
+                <h2 class="font-bold text-2xl">Rubia Paribahan</h2>
+                <p>Coach-009-WEB ! AC_Business</p>
+              </div>
+            </div>
+            <!-- Seat Left -->
+            <div
+              class="seat-availabe flex flex-row bg-lime-500 bg-opacity-25 w-48 rounded-2xl h-10">
+              <img src="images/seat-green.png" alt="Seat Image" />
+              <h2 class="font-bold m-auto">40 Seats left</h2>
+            </div>
+          </div>
+          <!-- Route -->
+          <div class="route-details  mx-8 bg-[#F7F8F8] m-auto mt-10 rounded-2xl   ">
+            <div class="rd1 flex flex-row justify-between border-b-2 border-dotted p-5">
+              <p>Route</p>
+              <p>Dhaka-Sylhet</p>
+            </div>
+            <div class="rd2 flex flex-row justify-between border-b-2 border-dotted p-3  ">
+              <p>Departure Time</p>
+              <p>9.00 PM</p>
+            </div>
+            <div class="rd3 flex flex-row justify-around p-3 gap-3 mx-3  ">
+              <div class="btn w-1/3">Boarding Point - Laxmipur</div>
+              <div class="btn w-1/3">Dropping Point - Bogura</div>
+              <div class="btn w-1/3">Est. TIme - 11 Hour</div>
+            </div>
+          </div>
+        </div>
+        <div class="dividedc">
+          <img src="images/info-devider.png" alt="Divider" />
+        </div>
+        <!-- Taka -->
+        <div class="ticket-price m-auto">
+          <div class="">
+            <img src="images/fare.png" alt="fare png" />
+            <h2 class="font-extrabold text-2xl">550 Taka</h2>
+            <p class="text-2xl">Per Seat</p>
+          </div>
+        </div>
+      </div>
+      <!-- Seat Selection -->
+      <div class="seat-container w-[90%] bg-white mt-3 m-auto rounded-3xl flex flex-row">
+        <!-- Seat -->
+        <div class="seat1 w-2/3 border-r-2 border-dotted gap-2">
+          <div class="sys border-b-2 border-dotted">
+            <h2 class="font-semibold text-xl mx-8 p-3">Select Your Seat</h2>
+          </div>
+          <!-- Second Phase Availbe and Selected -->
+          <div class="seat1-p1 flex flex-row justify-between border-b-2 border-dotted">
+            <div class="ava flex flex-row gap-2">
+              <img src="images/seat-gray.png" alt="Seat">
+              <p>Available</p>
+            </div>
+            <div class="sel flex flex-row gap-2">
+              <img src="images/seat-green-filled.png" alt="Seat">
+              <p>Selected</p>
+            </div>
+          </div>
+          <div class="seat ">
+            
+            
+            <div class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
+              <kbd class="kbd">q</kbd>
+              <kbd class="kbd">w</kbd>
+              <kbd class="kbd">e</kbd>
+              <kbd class="kbd">r</kbd>
+              <kbd class="kbd">t</kbd>
+              <kbd class="kbd">y</kbd>
+              <kbd class="kbd">u</kbd>
+              <kbd class="kbd">i</kbd>
+              <kbd class="kbd">o</kbd>
+              <kbd class="kbd">p</kbd>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Second Div -->
+        <div class="seat2 w-3/3">
+          <h2>Selected Your Seat</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
