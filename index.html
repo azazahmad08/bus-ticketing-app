@@ -70,7 +70,7 @@
     </div>
     <!-- Banner -->
     <div
-      class="banner lg:w-[90%] m-auto mt-3 h-[600px] bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center  rounded-3xl"
+      class="banner lg:w-[90%] m-auto mt-3 h-[600px] bg-[url('images/banner.png')] bg-no-repeat bg-cover bg-center rounded-3xl"
     >
       <h2 class="h2 text-wrap text-6xl text-white text-center p-24">
         End-to-End Travel with Rubia Paribahan
@@ -149,8 +149,9 @@
       </div>
       <!-- Bus Details -->
       <div
-        class="bus bg-white lg:w-[90%] sm:w-[90%] m-auto flex flex-row rounded-3xl ">
-        <div class="detail-bus w-3/4 ">
+        class="bus bg-white lg:w-[90%] sm:w-[90%] m-auto flex flex-row rounded-3xl"
+      >
+        <div class="detail-bus w-3/4">
           <!-- Bus Details Like Name and availble seat -->
           <div class="bustails flex flex-row justify-between mx-8 mt-12">
             <div class="but-info flex flex-row w-1/2 gap-3">
@@ -162,22 +163,27 @@
             </div>
             <!-- Seat Left -->
             <div
-              class="seat-availabe flex flex-row bg-lime-500 bg-opacity-25 w-48 rounded-2xl h-10">
+              class="seat-availabe flex flex-row bg-lime-500 bg-opacity-25 w-48 rounded-2xl h-10"
+            >
               <img src="images/seat-green.png" alt="Seat Image" />
               <h2 class="font-bold m-auto">40 Seats left</h2>
             </div>
           </div>
           <!-- Route -->
-          <div class="route-details  mx-8 bg-[#F7F8F8] m-auto mt-10 rounded-2xl   ">
-            <div class="rd1 flex flex-row justify-between border-b-2 border-dotted p-5">
+          <div class="route-details mx-8 bg-[#F7F8F8] m-auto mt-10 rounded-2xl">
+            <div
+              class="rd1 flex flex-row justify-between border-b-2 border-dotted p-5"
+            >
               <p>Route</p>
               <p>Dhaka-Sylhet</p>
             </div>
-            <div class="rd2 flex flex-row justify-between border-b-2 border-dotted p-3  ">
+            <div
+              class="rd2 flex flex-row justify-between border-b-2 border-dotted p-3"
+            >
               <p>Departure Time</p>
               <p>9.00 PM</p>
             </div>
-            <div class="rd3 flex flex-row justify-around p-3 gap-3 mx-3  ">
+            <div class="rd3 flex flex-row justify-around p-3 gap-3 mx-3">
               <div class="btn w-1/3">Boarding Point - Laxmipur</div>
               <div class="btn w-1/3">Dropping Point - Bogura</div>
               <div class="btn w-1/3">Est. TIme - 11 Hour</div>
@@ -197,46 +203,223 @@
         </div>
       </div>
       <!-- Seat Selection -->
-      <div class="seat-container w-[90%] bg-white mt-3 m-auto rounded-3xl flex flex-row">
+      <div
+        class="seat-container w-[90%] bg-white mt-3 m-auto rounded-3xl flex lg:flex-row sm:flex-col">
         <!-- Seat -->
-        <div class="seat1 w-2/3 border-r-2 border-dotted gap-2">
-          <div class="sys border-b-2 border-dotted">
-            <h2 class="font-semibold text-xl mx-8 p-3">Select Your Seat</h2>
-          </div>
-          <!-- Second Phase Availbe and Selected -->
-          <div class="seat1-p1 flex flex-row justify-between border-b-2 border-dotted">
-            <div class="ava flex flex-row gap-2">
-              <img src="images/seat-gray.png" alt="Seat">
-              <p>Available</p>
+
+        <div
+          class="lg:w-2/3 sm:w-[90%] lg:border-r-2 sm:border-b-2 border-dotted">
+          <div class="seat1 mx-8 gap-3">
+            <div class="sys border-b-2 border-dotted">
+              <h2 class="font-semibold text-xl mx-8 p-3">Select Your Seat</h2>
             </div>
-            <div class="sel flex flex-row gap-2">
-              <img src="images/seat-green-filled.png" alt="Seat">
-              <p>Selected</p>
+
+            <!-- Second Phase Availbe and Selected -->
+            <div
+              class="seat1-p1 flex flex-row justify-between border-b-2 border-dotted"b >
+              <div class="ava flex flex-row gap-2">
+                <img src="images/seat-gray.png" alt="Seat" />
+                <p>Available</p>
+              </div>
+              <div class="sel flex flex-row gap-2">
+                <img src="images/seat-green-filled.png" alt="Seat" />
+                <p>Selected</p>
+              </div>
             </div>
-          </div>
-          <div class="seat ">
-            
-            
-            <div class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
-              <kbd class="kbd">q</kbd>
-              <kbd class="kbd">w</kbd>
-              <kbd class="kbd">e</kbd>
-              <kbd class="kbd">r</kbd>
-              <kbd class="kbd">t</kbd>
-              <kbd class="kbd">y</kbd>
-              <kbd class="kbd">u</kbd>
-              <kbd class="kbd">i</kbd>
-              <kbd class="kbd">o</kbd>
-              <kbd class="kbd">p</kbd>
+            <div class="seats flex flex-row gap-32">
+              
+              <div class="seat1 flex flex-row gap-10 mt-5">
+              
+              <div
+                class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
+                <kbd class="kbd">A1</kbd>
+                <kbd class="kbd">B1</kbd>
+                <kbd class="kbd">C1</kbd>
+                <kbd class="kbd">D1</kbd>
+                <kbd class="kbd">E1</kbd>
+                <kbd class="kbd">F1</kbd>
+                <kbd class="kbd">G1</kbd>
+                <kbd class="kbd">H1</kbd>
+                <kbd class="kbd">I1</kbd>
+                <kbd class="kbd">J1</kbd>
+              </div>
+              <div
+                class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
+                <kbd class="kbd">A2</kbd>
+                <kbd class="kbd">B2</kbd>
+                <kbd class="kbd">C2</kbd>
+                <kbd class="kbd">D2</kbd>
+                <kbd class="kbd">E2</kbd>
+                <kbd class="kbd">F2</kbd>
+                <kbd class="kbd">G2</kbd>
+                <kbd class="kbd">H2</kbd>
+                <kbd class="kbd">I2</kbd>
+                <kbd class="kbd">J2</kbd>
+              </div>
             </div>
+            <div class="seat2 flex flex-row gap-10 mt-5">
+              
+              <div
+                class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
+                <kbd class="kbd">A3</kbd>
+                <kbd class="kbd">B3</kbd>
+                <kbd class="kbd">C3</kbd>
+                <kbd class="kbd">D3</kbd>
+                <kbd class="kbd">E3</kbd>
+                <kbd class="kbd">F3</kbd>
+                <kbd class="kbd">G3</kbd>
+                <kbd class="kbd">H3</kbd>
+                <kbd class="kbd">I3</kbd>
+                <kbd class="kbd">J3</kbd>
+              </div>
+              <div
+                class="flex justify-center flex-col gap-1 mx-1 w-[80px] h-[56]">
+                <kbd class="kbd">A4</kbd>
+                <kbd class="kbd">B4</kbd>
+                <kbd class="kbd">C4</kbd>
+                <kbd class="kbd">D4</kbd>
+                <kbd class="kbd">E4</kbd>
+                <kbd class="kbd">F4</kbd>
+                <kbd class="kbd">G4</kbd>
+                <kbd class="kbd">H4</kbd>
+                <kbd class="kbd">I4</kbd>
+                <kbd class="kbd">J4</kbd>
+              </div>
+            </div></div>
           </div>
-          
         </div>
         <!-- Second Div -->
-        <div class="seat2 w-3/3">
-          <h2>Selected Your Seat</h2>
+        <div class="seat2 w-1/3 ml-3">
+          <div class="sys2 border-b-2 border-dotted">
+            <h2>Selected Your Seat</h2>
+          </div>
+          <!-- Form for Seat and Pricing -->
+          <div class="form bg-[#F7F8F8;] mx-8 mt-3 rounded-3xl">
+            <div class="gappur mx-8">
+              <div
+                class="form1 flex flex-row justify-around border-b-2 border-dotted"
+              >
+                <div class="form1at flex flex-row">
+                  <p class="font-bold">Seat</p>
+                  <div class="bg-red-50 w-2 h-3">#</div>
+                </div>
+                <div class="class">
+                  <p class="font-bold">Class</p>
+                </div>
+                <div class="Price">
+                  <p class="font-bold">Price</p>
+                </div>
+              </div>
+              <!-- Selected Seats -->
+              <div
+                class="form1 flex flex-row justify-around border-b-2 border-solid"
+              >
+                <div class="form1at flex flex-row">
+                  <p class="font-bold">Seat</p>
+                  <div class="bg-red-50 w-2 h-3">#</div>
+                </div>
+                <div class="class">
+                  <p class="font-bold">Class</p>
+                </div>
+                <div class="Price">
+                  <p class="font-bold">Price</p>
+                </div>
+              </div>
+              <!-- Total Price -->
+              <div
+                class="form1 flex flex-row justify-around border-b-2 border-solid mx-8"
+              >
+                <div class="form1at flex flex-row">
+                  <p class="font-bold">Total Price</p>
+                </div>
+
+                <div class="Price">
+                  <p class="font-bold">BDT 0</p>
+                </div>
+              </div>
+            </div>
+            <!-- Coupon -->
+            <div class="coupon flex m-auto justify-center mt-4 w-">
+              <input
+                type="text"
+                placeholder="Have any coupon"
+                class="rounded-l-2xl"
+              />
+              <button class="bg-green-500 text-white rounded-r-xl p-2">
+                Apply
+              </button>
+            </div>
+            <div class="gt flex flex-row justify-between mx-8">
+              <h2 class="text-xl font-bold">Grand Total</h2>
+              <h2 class="text-xl font-bold">BDT 0</h2>
+            </div>
+          </div>
+          <!-- Form Finish -->
+          <div class="div gap-2 flex flex-col mx-8 mt-4">
+            <h2 class="text-xl font-bold">Passenger Name*</h2>
+            <input
+              type="text"
+              placeholder="  Enter Your Name"
+              class="border-2 border-gray-50 rounded-2xl h-12"
+            />
+          </div>
+          <div class="div gap-2 flex flex-col mx-8 mt-4">
+            <h2 class="text-xl font-bold">Phone Number*</h2>
+            <input
+              type="number"
+              placeholder="  Enter Your Number"
+              required
+              class="border-2 border-gray-50 rounded-2xl h-12"
+            />
+          </div>
+          <div class="div gap-2 flex flex-col mx-8 mt-4">
+            <h2 class="text-xl font-bold">Email*</h2>
+            <input
+              type="email"
+              placeholder="  Enter Your Email"
+              required
+              class="border-2 border-gray-50 rounded-2xl h-12"
+            />
+          </div>
+          <!-- Input Finish -->
+          <div
+            class="btn w-[90%] bg-[#1DD100] text-white text-2xl mt-4 m-auto flex"
+          >
+            Next
+          </div>
+          <div class="term flex flex-row justify-around mt-5">
+            <a href="#"><p class="underline">Terms and Conditions</p></a>
+            <a href="#"><p class="underline">Cancellation Policy</p></a>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <footer class="footer p-10 bg-black text-neutral-content flex flex-col">
+        <div
+          class="tags flex justify-between w-[90%] m-auto border-b-2 border-dotted"
+        >
+          <div class="pari">
+            <h2 class="text-3xl text-white font-semibold">Rubia Paribahan</h2>
+            <p>Make your Travel More Comfortable with Us</p>
+          </div>
+          <div class="play-store gap-2 flex flex-col mb-6">
+            <h2 class="text-xl text-white font-semibold">Download our app</h2>
+            <img src="images/ps.png" alt="" />
+          </div>
+        </div>
+        <div class="copyr8 flex flex-row justify-between w-[90%] m-auto">
+          <div class="cop">
+            <p>@all rights reserved, P-Ticket services limited.2024</p>
+          </div>
+          <div class="foot flex flex-row gap-3 underline">
+            <p>Terms & condition</p>
+            <p>Return & refund policy</p>
+            <p>Privacy policy</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
